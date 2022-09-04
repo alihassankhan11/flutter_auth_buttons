@@ -66,7 +66,7 @@ class _ButtonContentState extends State<ButtonContent> {
               ? const EdgeInsets.all(5.0)
               : null,
           decoration: BoxDecoration(
-            color: widget.style.iconBackground,
+            color: Colors.green,
             borderRadius: BorderRadius.circular(
               widget.style.borderRadius ?? 0.0,
             ),
